@@ -9,7 +9,7 @@ public void draw()
 }
 public void keyPressed()//optional
 {
-  if(key == 'w' && max> 0){
+  if(key == 'w' && max> 10){
     max = max - 10;
   }
 }
