@@ -7,18 +7,9 @@ public void draw()
 {
   sierpinski(0,500,500); 
 }
-public void mousePressed()//optional
-{
-  if(max>0){
-    max = max - 10;
-  }
-}
 public void keyPressed()//optional
 {
-  if(key == 'a' && max<500){
-    max = max + 10;
-  }
-  if(key == 'd' && max> 0){
+  if(key == 'w' && max> 0){
     max = max - 10;
   }
 }
